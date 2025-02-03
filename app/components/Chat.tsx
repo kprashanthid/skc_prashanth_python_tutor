@@ -59,7 +59,7 @@ export default function Chat() {
         scrollToBottom();
       }
     } catch (error) {
-      // ... error handling
+      console.error(error);
     } finally {
       setIsLoading(false);
     }
