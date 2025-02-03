@@ -1,7 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
 import Header from "./components/Header";
-import ChatWrapper from "./components/chatwrapper";
 
 export default function Home() {
   const router = useRouter();
